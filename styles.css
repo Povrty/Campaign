@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 25px;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+.left {
+	display: flex;
+	align-items: center;
+}
+.right {
+	display: flex;
+}
+.navbar a {
+	padding: 25px;
+	color: black;
+	text-decoration: none;
+}
+.navbar a:hover{
+	background-color: #d8d8d8;
+}
+.Poll {
+	padding: 0px 10px 0px 10px;
+}
+.ZipCode input{
+    font-size: 25px;
+	border: none;
+}
+.ZipCode {
+    display: flex;
+	height: 35px;
+}
+button {
+	border: none;
+	background-color: #d8d8d8;
+	height: 35px;
+}
+button:hover {
+	background-color: #cfcfcf;
+}	
+.header img {
+	width: 100%;
+}
+img {
+	opacity: 0.5;
+	transition: opacity 1s;
+}
+img:hover {
+	opacity: 1;
+}
+.tagline {
+	font-family: 'Ubuntu', sans-serif;
+	position: absolute;
+	font-size: 128px;
+	color: white;
+	top: 450px;
+	right: 250px;
+}
+.candid {
+	display: flex;
+	justify-content: center;
+	text-align: center;	
+}
+.First {
+	width: 30%;
+	background-color: #d8d8d8;
+}
+.Second {
+	width: 40%;	
+	background-color: #9e9e9e;
+}
+.Third {
+	width: 30%;	
+	background-color: #d8d8d8;
+}
+.donate {
+	background-color: #949494;
+	border: none;
+}
+.donate:hover {
+	background-color: #8a8a8a;
+}
+.footer {
+	background-color: #525252;
+	height: 100px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	top: 50px;
+}
